@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MeshRenderer.cpp" />
+    <ClCompile Include="AppSettings.cpp" />
+    <ClCompile Include="LightingDemo.cpp" />
+    <ClCompile Include="..\GumshoeFramework\v1.00\App.cpp">
+      <Filter>GumshoeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Assert.cpp">
+      <Filter>GumshoeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\ColorConversions.cpp">
+      <Filter>GumshoeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\FileIO.cpp">
+      <Filter>GumshoeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Input.cpp">
+      <Filter>GumshoeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\MurmurHash.cpp">
+      <Filter>GumshoeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\PCH.cpp">
+      <Filter>GumshoeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Settings.cpp">
+      <Filter>GumshoeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\GF_Math.cpp">
+      <Filter>GumshoeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Timer.cpp">
+      <Filter>GumshoeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\TwHelper.cpp">
+      <Filter>GumshoeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Utility.cpp">
+      <Filter>GumshoeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Window.cpp">
+      <Filter>GumshoeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\DeviceStates.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\DXErr.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\GraphicsTypes.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\Model.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\PostProcessorBase.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\Profiler.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\SDKMesh.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\SH.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\ShaderCompilation.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\Skybox.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\SpriteFont.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\SpriteRenderer.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\Textures.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\WICTextureLoader.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\Camera.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\DDSTextureLoader.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\DeviceManager.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\TinyEXR.cpp">
+      <Filter>GumshoeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\Sampling.cpp">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Waves.cpp" />
+    <ClCompile Include="..\GumshoeFramework\v1.00\Graphics\GeometryGenerator.cpp">
+      <Filter>GumshoeFramework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MeshRenderer.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SharedConstants.h" />
+    <ClInclude Include="AppSettings.h" />
+    <ClInclude Include="LightingDemo.h" />
+    <ClInclude Include="AppPCH.h" />
+    <ClInclude Include="..\GumshoeFramework\v1.00\ColorConversions.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Exceptions.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\FileIO.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Input.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\InterfacePointers.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\MurmurHash.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\PCH.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Serialization.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Settings.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\GF_Math.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Timer.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\TwHelper.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Utility.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Window.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\App.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Assert.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\DeviceStates.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\DXErr.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\GraphicsTypes.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\Model.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\PostProcessorBase.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\Profiler.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\SDKMesh.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\SH.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\ShaderCompilation.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\Skybox.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\SpriteFont.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\SpriteRenderer.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\Textures.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\WICTextureLoader.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\Camera.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\DDSTextureLoader.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\DeviceManager.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="AppPCH.h" />
+    <ClInclude Include="..\GumshoeFramework\v1.00\TinyEXR.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\BRDF.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\Sampling.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\Filtering.h">
+      <Filter>GumshoeFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Waves.h" />
+    <ClInclude Include="..\GumshoeFramework\v1.00\Graphics\GeometryGenerator.h">
+      <Filter>GumshoeFramework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GumshoeFramework">
+      <UniqueIdentifier>{046ff806-30e7-4898-b2f8-67148df7f82e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GumshoeFramework\Graphics">
+      <UniqueIdentifier>{d42f399e-5187-4d62-99e5-2e994ad01c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GumshoeFramework\External DLLs">
+      <UniqueIdentifier>{f554bad2-3017-4de6-b296-a8d625a6d4df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LightingDemo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="AppSettings.cs" />
+    <CustomBuild Include="..\Externals\AntTweakBar\bin\AntTweakBar64.dll">
+      <Filter>GumshoeFramework\External DLLs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Externals\Assimp-3.1.1\bin\assimp.dll">
+      <Filter>GumshoeFramework\External DLLs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Externals\d3dcompiler_47.dll">
+      <Filter>GumshoeFramework\External DLLs</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
